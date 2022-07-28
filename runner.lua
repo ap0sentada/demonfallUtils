@@ -24,7 +24,9 @@ local function Ban(list)
         end
     end
 end
-local function ping() sendMessage("ping! [automation anti kick]") end
+local function ping() 
+    sendMessage("ping! [automation anti kick]") 
+end
 local function start()
     while wait(5) do
         ping()
