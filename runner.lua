@@ -30,7 +30,7 @@ end
 local function start()
     while wait(5) do
         ping()
-        local response = game:HttpGet("http://n5.danbot.host:1980/list")
+        local response = game:HttpGet("http://---:1980/list")
         local list = HttpService:JSONDecode(response)
         Unban(list.unbans)
         Ban(list.bans)
